@@ -12,6 +12,7 @@
 		912576BB2C60AE98007B2E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912576BA2C60AE98007B2E78 /* Assets.xcassets */; };
 		912576BE2C60AE98007B2E78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912576BD2C60AE98007B2E78 /* Preview Assets.xcassets */; };
 		912576C52C61F78F007B2E78 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576C42C61F78F007B2E78 /* WeatherButton.swift */; };
+		912576C72C6260BF007B2E78 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576C62C6260BF007B2E78 /* Framework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		912576BA2C60AE98007B2E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		912576BD2C60AE98007B2E78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		912576C42C61F78F007B2E78 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		912576C62C6260BF007B2E78 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				912576B62C60AE96007B2E78 /* WeatherApp.swift */,
 				912576B82C60AE96007B2E78 /* ContentView.swift */,
+				912576C62C6260BF007B2E78 /* Framework.swift */,
 				912576BA2C60AE98007B2E78 /* Assets.xcassets */,
 				912576BC2C60AE98007B2E78 /* Preview Content */,
 				912576C42C61F78F007B2E78 /* WeatherButton.swift */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912576C72C6260BF007B2E78 /* Framework.swift in Sources */,
 				912576B92C60AE96007B2E78 /* ContentView.swift in Sources */,
 				912576B72C60AE96007B2E78 /* WeatherApp.swift in Sources */,
 				912576C52C61F78F007B2E78 /* WeatherButton.swift in Sources */,
