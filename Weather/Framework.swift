@@ -16,6 +16,11 @@ struct Framework: Hashable, Identifiable {
 }
 
 struct MockData {
+    static let sampleFramework = Framework(name: "CloudKit",
+                                           imageName: "cloudkit",
+                                           urlString: "https://developer.apple.com/icloud/cloudkit",
+                                           description: "Store your app’s data in iCloud and keep everything up to date across apps and on the web with CloudKit JS. With up to 1PB of free storage for each app, it’s never been easier to build and grow your apps using CloudKit.")
+    
     static let frameworks = [
             Framework(name: "App Clips",
                       imageName: "app-clip",
