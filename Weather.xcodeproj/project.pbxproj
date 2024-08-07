@@ -15,6 +15,7 @@
 		912576C72C6260BF007B2E78 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576C62C6260BF007B2E78 /* Framework.swift */; };
 		912576C92C626229007B2E78 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576C82C626229007B2E78 /* FrameworkGridView.swift */; };
 		912576CB2C62695B007B2E78 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576CA2C62695B007B2E78 /* FrameworkDetailView.swift */; };
+		912576CD2C626F11007B2E78 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576CC2C626F11007B2E78 /* FrameworkGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		912576C62C6260BF007B2E78 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		912576C82C626229007B2E78 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		912576CA2C62695B007B2E78 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		912576CC2C626F11007B2E78 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 			children = (
 				912576B62C60AE96007B2E78 /* WeatherApp.swift */,
 				912576B82C60AE96007B2E78 /* ContentView.swift */,
-				912576C62C6260BF007B2E78 /* Framework.swift */,
+				912576C42C61F78F007B2E78 /* WeatherButton.swift */,
 				912576BA2C60AE98007B2E78 /* Assets.xcassets */,
 				912576BC2C60AE98007B2E78 /* Preview Content */,
-				912576C42C61F78F007B2E78 /* WeatherButton.swift */,
+				912576C62C6260BF007B2E78 /* Framework.swift */,
 				912576C82C626229007B2E78 /* FrameworkGridView.swift */,
+				912576CC2C626F11007B2E78 /* FrameworkGridViewModel.swift */,
 				912576CA2C62695B007B2E78 /* FrameworkDetailView.swift */,
 			);
 			path = Weather;
@@ -154,6 +157,7 @@
 				912576CB2C62695B007B2E78 /* FrameworkDetailView.swift in Sources */,
 				912576B92C60AE96007B2E78 /* ContentView.swift in Sources */,
 				912576B72C60AE96007B2E78 /* WeatherApp.swift in Sources */,
+				912576CD2C626F11007B2E78 /* FrameworkGridViewModel.swift in Sources */,
 				912576C52C61F78F007B2E78 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
