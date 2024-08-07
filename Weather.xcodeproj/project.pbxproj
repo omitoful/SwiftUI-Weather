@@ -17,6 +17,8 @@
 		912576CB2C62695B007B2E78 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576CA2C62695B007B2E78 /* FrameworkDetailView.swift */; };
 		912576CD2C626F11007B2E78 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576CC2C626F11007B2E78 /* FrameworkGridViewModel.swift */; };
 		912576CF2C632BDC007B2E78 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576CE2C632BDC007B2E78 /* SafariView.swift */; };
+		912576D12C63383D007B2E78 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576D02C63383D007B2E78 /* FrameworkTitleView.swift */; };
+		912576D32C6338C4007B2E78 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912576D22C6338C4007B2E78 /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		912576CA2C62695B007B2E78 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		912576CC2C626F11007B2E78 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		912576CE2C632BDC007B2E78 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		912576D02C63383D007B2E78 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		912576D22C6338C4007B2E78 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +70,14 @@
 				912576B62C60AE96007B2E78 /* WeatherApp.swift */,
 				912576B82C60AE96007B2E78 /* ContentView.swift */,
 				912576C42C61F78F007B2E78 /* WeatherButton.swift */,
+				912576D22C6338C4007B2E78 /* XDismissButton.swift */,
 				912576BA2C60AE98007B2E78 /* Assets.xcassets */,
 				912576BC2C60AE98007B2E78 /* Preview Content */,
 				912576C62C6260BF007B2E78 /* Framework.swift */,
 				912576C82C626229007B2E78 /* FrameworkGridView.swift */,
 				912576CC2C626F11007B2E78 /* FrameworkGridViewModel.swift */,
 				912576CA2C62695B007B2E78 /* FrameworkDetailView.swift */,
+				912576D02C63383D007B2E78 /* FrameworkTitleView.swift */,
 				912576CE2C632BDC007B2E78 /* SafariView.swift */,
 			);
 			path = Weather;
@@ -156,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				912576C92C626229007B2E78 /* FrameworkGridView.swift in Sources */,
+				912576D12C63383D007B2E78 /* FrameworkTitleView.swift in Sources */,
 				912576C72C6260BF007B2E78 /* Framework.swift in Sources */,
 				912576CB2C62695B007B2E78 /* FrameworkDetailView.swift in Sources */,
 				912576B92C60AE96007B2E78 /* ContentView.swift in Sources */,
@@ -163,6 +170,7 @@
 				912576B72C60AE96007B2E78 /* WeatherApp.swift in Sources */,
 				912576CD2C626F11007B2E78 /* FrameworkGridViewModel.swift in Sources */,
 				912576C52C61F78F007B2E78 /* WeatherButton.swift in Sources */,
+				912576D32C6338C4007B2E78 /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
